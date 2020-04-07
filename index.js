@@ -90,6 +90,11 @@ var htmlTplString = `
 
 var jsTplString = `
 window.onload = function() {
+  document.getElementById("swagger-ui").onclick = (e) => {
+    if (e.target.id == "release-note-btn")
+      Appcues.show("-M4B35xlnEW-emN08WQy")
+  }
+
   // Build a system
   var url = window.location.search.match(/url=([^&]+)/);
   if (url && url.length > 1) {
