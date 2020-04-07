@@ -11,6 +11,7 @@ var htmlTplString = `
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <script src="//fast.appcues.com/28541.js"></script>
   <meta charset="UTF-8">
   <title><% title %></title>
   <link rel="stylesheet" type="text/css" href="./swagger-ui.css" >
