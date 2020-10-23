@@ -6,6 +6,18 @@ var favIconHtml = '<link rel="icon" type="image/png" href="./favicon-32x32.png" 
   '<link rel="icon" type="image/png" href="./favicon-16x16.png" sizes="16x16" />'
 var swaggerInit = ''
 
+var docBetaBanner = `
+<div class="banner">
+  <span class="announcement">
+    Give our 
+    <a href="https://api.datagalaxy.com/v2/documentation/beta" target="_blank">
+      new Documentation
+    </a>
+    a try ! 📚
+   </span>
+</div>
+`
+
 var htmlTplString = `
 <!-- HTML for static distribution bundle build -->
 <!DOCTYPE html>
@@ -39,6 +51,7 @@ var htmlTplString = `
 </head>
 
 <body>
+${docBetaBanner}
 
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="position:absolute;width:0;height:0">
   <defs>
