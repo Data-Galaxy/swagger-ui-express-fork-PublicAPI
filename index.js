@@ -51,14 +51,15 @@ var htmlTplString = `
     .banner {
         background-color: #fff;  
         width: 100%;
-        height: 50px;
+        height: 60px;
         box-shadow: 0 8px 12px 0 rgba(2,42,142,.1), 0 2px 4px 0 rgba(2,42,142,.1);
-        position: relative;
+        position: absolute;
     }
 
     .announcement {
         font-family: Source Sans Pro,sans-serif;
         font-weight: 400;
+        font-size: larger;
         position: absolute;
         width: 100%;
         text-align: center;
